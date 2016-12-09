@@ -14,6 +14,7 @@ For example, consider the following array A consisting of N = 8 elements:
   A[6] =  2
   A[7] =  1
 ```
+
 P = 1 is an equilibrium index of this array, because:
 
 A[0] = −1 = A[2] + A[3] + A[4] + A[5] + A[6] + A[7]
@@ -29,6 +30,8 @@ A[0] + A[1] + A[2] + A[3] + A[4] + A[5] + A[6] = 0
 and there are no elements with indices greater than 7.
 
 P = 8 is not an equilibrium index, because it does not fulfill the condition 0 ≤ P < N.
+
+-----
 
 Write a function:
 def solution(a)
