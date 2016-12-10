@@ -7,7 +7,7 @@ describe Equilibrium do
   end
 
   describe "#solution" do
-    context "equilibrium index exists" do
+    context "if equilibrium index exists" do
       it "returns one of the equilibrium index of the given array" do
           arr = [-1, 3, -4, 5, 1, -6, 2, 1]
           expect(equilibrium.find_first_equilibrium(arr)).to eq 1
@@ -21,7 +21,7 @@ describe Equilibrium do
     end
 
 
-    context "no equilibrium index exists" do
+    context "if no equilibrium index exists" do
       it "returns -1" do
         arr = [1, 2, 3, 4, 4, 3, 2, 1]
         expect(equilibrium.find_first_equilibrium(arr)).to eq -1
