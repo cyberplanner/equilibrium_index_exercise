@@ -50,4 +50,5 @@ Complexity:<br>
   Elements of input arrays can be modified.
 
   ------
-  #### Please run `$ bundle` before running the test suite `$ rspec`.
+
+ Please run `$ bundle` before running the test suite `$ rspec`.
