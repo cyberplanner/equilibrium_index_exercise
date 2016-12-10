@@ -35,7 +35,7 @@ P = 8 is not an equilibrium index, because it does not fulfill the condition 0 â
 -----
 
 Write a function:<br>
-def solution(a)
+> def solution(a)
   that, given a zero-indexed array A consisting of N integers, returns any of its equilibrium indices. The function should return âˆ’1 if no equilibrium index exists.
   For example, given array A shown above, the function may return 1, 3 or 7, as explained above.
   You can assume that:
@@ -44,6 +44,10 @@ def solution(a)
 
 
 Complexity:<br>
-  expected worst-case time complexity is O(N);
+
+  > expected worst-case time complexity is O(N);
   expected worst-case space complexity is O(N), beyond input storage (not counting the storage required for input arguments).
   Elements of input arrays can be modified.
+
+  ------
+  #### Please run `$ bundle` before running the test suite `$ rspec`.
